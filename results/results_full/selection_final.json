@@ -1,0 +1,15 @@
+{
+ "ensemble": "top8",
+ "membres": [
+  "full2_g42",
+  "full2_B",
+  "res2_g42_10batchs",
+  "nuit_optuna_best_graine2024",
+  "nuit_optuna_best",
+  "nuit_cnn_gru",
+  "nuit_optuna_best_graine7",
+  "nuit_tcn"
+ ],
+ "robuste": "full2_robuste",
+ "duree_h": 4.88
+}

@@ -1,0 +1,9 @@
+[09:11:52] ÉCHEC « analyse des erreurs » : AttributeError: 'numpy.ndarray' object has no attribute 'to_numpy'
+Traceback (most recent call last):
+  File "/tmp/ipykernel_24/3382827689.py", line 8, in safe
+    return fn(*args, **kwargs)
+  File "/tmp/ipykernel_24/2064216843.py", line 29, in error_analysis
+    res = segment_metrics(y_te, p_te, LABELS, seg.to_numpy()).round(3)
+                                              ^^^^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'to_numpy'
+
